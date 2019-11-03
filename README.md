@@ -1,1 +1,1 @@
-studi kasus membuat online shot
+studi kasus membuat online shop

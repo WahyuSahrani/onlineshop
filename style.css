@@ -9,21 +9,16 @@ body {
 	margin: 0px; 
 	color: white; 
 	background: green; 
-	height: 70px;
-	padding: 10px;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
 }
 
-.logo {
-	float: left;
-}
-
-.navbar {
-	float: right;
-}
 
 .navbar ul {
 	list-style: none; 
-	padding-top: 10px;
+	padding-left: 0px;	
 }
 
 .navbar ul li { 
@@ -37,20 +32,20 @@ body {
 }
 
 .navbar ul li a:hover {
-	background-color: blue;
-	padding: 10px;
-}
-
-.gambar {
-	width: 600px; 
-	display: inline-grid; 
-	grid-template-columns: 1fr 1fr 1fr;
+	color: black;
+	text-decoration: underline;
 }
 
 .kanan {
 	float: left;
 	margin-left: -10px;
 	background-color: white;
+}
+
+.gambar {
+	width: 600px; 
+	display: inline-grid; 
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .kiri {
